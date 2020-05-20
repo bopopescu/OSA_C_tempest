@@ -1,0 +1,388 @@
+2020-05-19 12:10:20.959 10083 INFO tempest [-] Using tempest config file /home/nchavan/tempest/etc/tempest.conf
+2020-05-19 12:10:20.962 10083 DEBUG tempest [-] ******************************************************************************** log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2575
+2020-05-19 12:10:20.963 10083 DEBUG tempest [-] Configuration options gathered from: log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2576
+2020-05-19 12:10:20.963 10083 DEBUG tempest [-] command line args: [] log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2577
+2020-05-19 12:10:20.963 10083 DEBUG tempest [-] config files: ['/home/nchavan/tempest/etc/tempest.conf'] log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2579
+2020-05-19 12:10:20.963 10083 DEBUG tempest [-] ================================================================================ log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2580
+2020-05-19 12:10:20.964 10083 DEBUG tempest [-] config_dir                     = [] log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.964 10083 DEBUG tempest [-] config_file                    = ['/home/nchavan/tempest/etc/tempest.conf'] log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.964 10083 DEBUG tempest [-] config_source                  = [] log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.964 10083 DEBUG tempest [-] debug                          = <oslo_config.cfg.GroupAttr object at 0x7ff697d10890> log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.965 10083 DEBUG tempest [-] default_log_levels             = ['amqp=WARN', 'amqplib=WARN', 'boto=WARN', 'qpid=WARN', 'sqlalchemy=WARN', 'suds=INFO', 'oslo.messaging=INFO', 'oslo_messaging=INFO', 'iso8601=WARN', 'requests.packages.urllib3.connectionpool=WARN', 'urllib3.connectionpool=WARN', 'websocket=WARN', 'requests.packages.urllib3.util.retry=WARN', 'urllib3.util.retry=WARN', 'keystonemiddleware=WARN', 'routes.middleware=WARN', 'stevedore=WARN', 'taskflow=WARN', 'keystoneauth=WARN', 'oslo.cache=INFO', 'oslo_policy=INFO', 'dogpile.core.dogpile=INFO'] log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.965 10083 DEBUG tempest [-] instance_format                = [instance: %(uuid)s]  log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.965 10083 DEBUG tempest [-] instance_uuid_format           = [instance: %(uuid)s]  log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.966 10083 DEBUG tempest [-] log_config_append              = None log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.966 10083 DEBUG tempest [-] log_date_format                = %Y-%m-%d %H:%M:%S log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.966 10083 DEBUG tempest [-] log_dir                        = None log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.966 10083 DEBUG tempest [-] log_file                       = tempest.log log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.967 10083 DEBUG tempest [-] log_rotate_interval            = 1 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.967 10083 DEBUG tempest [-] log_rotate_interval_type       = days log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.967 10083 DEBUG tempest [-] log_rotation_type              = none log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.968 10083 DEBUG tempest [-] logging_context_format_string  = %(asctime)s.%(msecs)03d %(process)d %(levelname)s %(name)s [%(request_id)s %(user_identity)s] %(instance)s%(message)s log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.968 10083 DEBUG tempest [-] logging_debug_format_suffix    = %(funcName)s %(pathname)s:%(lineno)d log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.968 10083 DEBUG tempest [-] logging_default_format_string  = %(asctime)s.%(msecs)03d %(process)d %(levelname)s %(name)s [-] %(instance)s%(message)s log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.968 10083 DEBUG tempest [-] logging_exception_prefix       = %(asctime)s.%(msecs)03d %(process)d ERROR %(name)s %(instance)s log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.968 10083 DEBUG tempest [-] logging_user_identity_format   = %(user)s %(tenant)s %(domain)s %(user_domain)s %(project_domain)s log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.969 10083 DEBUG tempest [-] max_logfile_count              = 30 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.969 10083 DEBUG tempest [-] max_logfile_size_mb            = 200 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.969 10083 DEBUG tempest [-] publish_errors                 = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.969 10083 DEBUG tempest [-] rate_limit_burst               = 0 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.970 10083 DEBUG tempest [-] rate_limit_except_level        = CRITICAL log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.970 10083 DEBUG tempest [-] rate_limit_interval            = 0 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.970 10083 DEBUG tempest [-] resources_prefix               = tempest log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.970 10083 DEBUG tempest [-] syslog_log_facility            = LOG_USER log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.971 10083 DEBUG tempest [-] use_eventlog                   = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.971 10083 DEBUG tempest [-] use_journal                    = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.971 10083 DEBUG tempest [-] use_json                       = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.971 10083 DEBUG tempest [-] use_stderr                     = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.972 10083 DEBUG tempest [-] use_syslog                     = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.972 10083 DEBUG tempest [-] watch_log_file                 = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2589
+2020-05-19 12:10:20.972 10083 DEBUG tempest [-] image.build_interval           = 1 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.972 10083 DEBUG tempest [-] image.build_timeout            = 300 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.973 10083 DEBUG tempest [-] image.catalog_type             = image log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.973 10083 DEBUG tempest [-] image.container_formats        = ['ami', 'ari', 'aki', 'bare', 'ovf', 'ova'] log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.973 10083 DEBUG tempest [-] image.disk_formats             = ['ami', 'ari', 'aki', 'vhd', 'vmdk', 'raw', 'qcow2', 'vdi', 'iso'] log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.974 10083 DEBUG tempest [-] image.endpoint_type            = publicURL log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.974 10083 DEBUG tempest [-] image.http_image               = http://download.cirros-cloud.net/0.3.1/cirros-0.3.1-x86_64-uec.tar.gz log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.974 10083 DEBUG tempest [-] image.region                   =  log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.974 10083 DEBUG tempest [-] object-storage.catalog_type    = object-store log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.975 10083 DEBUG tempest [-] object-storage.cluster_name    = name1 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.975 10083 DEBUG tempest [-] object-storage.container_sync_interval = 5 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.975 10083 DEBUG tempest [-] object-storage.container_sync_timeout = 600 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.975 10083 DEBUG tempest [-] object-storage.endpoint_type   = publicURL log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.976 10083 DEBUG tempest [-] object-storage.operator_role   = Member log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.976 10083 DEBUG tempest [-] object-storage.realm_name      = realm1 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.976 10083 DEBUG tempest [-] object-storage.region          =  log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.976 10083 DEBUG tempest [-] object-storage.reseller_admin_role = ResellerAdmin log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.977 10083 DEBUG tempest [-] network.alt_internal_network_id = 180984ff-2dcd-47ab-882e-2ae6dbca4d36 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.977 10083 DEBUG tempest [-] network.build_interval         = 1 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.977 10083 DEBUG tempest [-] network.build_timeout          = 300 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.977 10083 DEBUG tempest [-] network.catalog_type           = network log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.978 10083 DEBUG tempest [-] network.default_network        = ['10.10.10.0/24'] log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.978 10083 DEBUG tempest [-] network.dns_servers            = ['8.8.8.8', '8.8.4.4'] log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.978 10083 DEBUG tempest [-] network.endpoint_type          = publicURL log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.979 10083 DEBUG tempest [-] network.floating_network_name  = None log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.979 10083 DEBUG tempest [-] network.internal_network_id    = 180984ff-2dcd-47ab-882e-2ae6dbca4d36 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.979 10083 DEBUG tempest [-] network.port_vnic_type         = None log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.979 10083 DEBUG tempest [-] network.public_network_id      = c7bac6a4-adbb-4267-8bb3-189aac7ad889 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.980 10083 DEBUG tempest [-] network.public_router_id       = 49002664-2017-4829-a7e6-f5fa545fe2a6 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.980 10083 DEBUG tempest [-] network.region                 =  log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.980 10083 DEBUG tempest [-] network.tenant_network_cidr    = 10.100.0.0/16 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.980 10083 DEBUG tempest [-] network.tenant_network_mask_bits = 28 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.981 10083 DEBUG tempest [-] network.tenant_network_v6_cidr = 2003::/48 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.981 10083 DEBUG tempest [-] network.tenant_network_v6_mask_bits = 64 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.981 10083 DEBUG tempest [-] network.tenant_networks_reachable = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.981 10083 DEBUG tempest [-] data-processing-feature-enabled.plugins = ['vanilla', 'hdp'] log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.982 10083 DEBUG tempest [-] identity-feature-enabled.api_extensions = ['all'] log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.982 10083 DEBUG tempest [-] identity-feature-enabled.api_v2 = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.982 10083 DEBUG tempest [-] identity-feature-enabled.api_v3 = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.982 10083 DEBUG tempest [-] identity-feature-enabled.trust = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.983 10083 DEBUG tempest [-] telemetry.catalog_type         = metering log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.983 10083 DEBUG tempest [-] telemetry.endpoint_type        = publicURL log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.983 10083 WARNING oslo_config.cfg [-] Deprecated: Option "too_slow_to_test" from group "telemetry" is deprecated for removal.  Its value may be silently ignored in the future.
+2020-05-19 12:10:20.984 10083 DEBUG tempest [-] telemetry.too_slow_to_test     = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.984 10083 DEBUG tempest [-] negative.test_generator        = tempest.common.generator.negative_generator.NegativeTestGenerator log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.984 10083 DEBUG tempest [-] identity.admin_domain_id       = 88a4764ba8e7477ea28cf345bc36ffa2 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.985 10083 DEBUG tempest [-] identity.admin_role            = admin log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.985 10083 DEBUG tempest [-] identity.admin_tenant_id       = 60430011cf084c32939e69cc55da01ef log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.985 10083 DEBUG tempest [-] identity.alt_domain_name       = default log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.986 10083 WARNING oslo_config.cfg [-] Deprecated: Option "alt_password" from group "identity" is deprecated for removal.  Its value may be silently ignored in the future.
+2020-05-19 12:10:20.986 10083 DEBUG tempest [-] identity.alt_password          = **** log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.986 10083 WARNING oslo_config.cfg [-] Deprecated: Option "alt_tenant_name" from group "identity" is deprecated for removal.  Its value may be silently ignored in the future.
+2020-05-19 12:10:20.987 10083 DEBUG tempest [-] identity.alt_tenant_name       = demo log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.987 10083 WARNING oslo_config.cfg [-] Deprecated: Option "alt_username" from group "identity" is deprecated for removal.  Its value may be silently ignored in the future.
+2020-05-19 12:10:20.988 10083 DEBUG tempest [-] identity.alt_username          = demo log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.988 10083 DEBUG tempest [-] identity.auth_version          = v3 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.988 10083 WARNING oslo_config.cfg [-] Deprecated: Option "backupuser" from group "identity" is deprecated for removal.  Its value may be silently ignored in the future.
+2020-05-19 12:10:20.989 10083 DEBUG tempest [-] identity.backupuser            = trilio-backup-user log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.989 10083 WARNING oslo_config.cfg [-] Deprecated: Option "backupuser_password" from group "identity" is deprecated for removal.  Its value may be silently ignored in the future.
+2020-05-19 12:10:20.989 10083 DEBUG tempest [-] identity.backupuser_password   = **** log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.989 10083 DEBUG tempest [-] identity.ca_certificates_file  = None log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.990 10083 DEBUG tempest [-] identity.catalog_type          = identity log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.990 10083 DEBUG tempest [-] identity.default_domain_id     = 88a4764ba8e7477ea28cf345bc36ffa2 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.990 10083 DEBUG tempest [-] identity.disable_ssl_certificate_validation = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.991 10083 WARNING oslo_config.cfg [-] Deprecated: Option "domain_id" from group "identity" is deprecated for removal.  Its value may be silently ignored in the future.
+2020-05-19 12:10:20.991 10083 DEBUG tempest [-] identity.domain_id             = 88a4764ba8e7477ea28cf345bc36ffa2 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.991 10083 DEBUG tempest [-] identity.domain_name           = default log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.991 10083 WARNING oslo_config.cfg [-] Deprecated: Option "newadmin_password" from group "identity" is deprecated for removal.  Its value may be silently ignored in the future.
+2020-05-19 12:10:20.992 10083 DEBUG tempest [-] identity.newadmin_password     = **** log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.992 10083 WARNING oslo_config.cfg [-] Deprecated: Option "newadmin_user" from group "identity" is deprecated for removal.  Its value may be silently ignored in the future.
+2020-05-19 12:10:20.992 10083 DEBUG tempest [-] identity.newadmin_user         = trilio-newadmin-user log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.993 10083 WARNING oslo_config.cfg [-] Deprecated: Option "nonadmin_password" from group "identity" is deprecated for removal.  Its value may be silently ignored in the future.
+2020-05-19 12:10:20.993 10083 DEBUG tempest [-] identity.nonadmin_password     = **** log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.993 10083 WARNING oslo_config.cfg [-] Deprecated: Option "nonadmin_user" from group "identity" is deprecated for removal.  Its value may be silently ignored in the future.
+2020-05-19 12:10:20.994 10083 DEBUG tempest [-] identity.nonadmin_user         = trilio-nonadmin-user log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.994 10083 WARNING oslo_config.cfg [-] Deprecated: Option "password" from group "identity" is deprecated for removal.  Its value may be silently ignored in the future.
+2020-05-19 12:10:20.994 10083 DEBUG tempest [-] identity.password              = **** log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.995 10083 DEBUG tempest [-] identity.public_endpoint_type  = publicURL log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.995 10083 DEBUG tempest [-] identity.region                = US-WEST-2 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.995 10083 WARNING oslo_config.cfg [-] Deprecated: Option "tenant_id" from group "identity" is deprecated for removal.  Its value may be silently ignored in the future.
+2020-05-19 12:10:20.996 10083 DEBUG tempest [-] identity.tenant_id             = 487d69e3dac6411ba4ffca3a5ac61738 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.996 10083 WARNING oslo_config.cfg [-] Deprecated: Option "tenant_id_1" from group "identity" is deprecated for removal.  Its value may be silently ignored in the future.
+2020-05-19 12:10:20.996 10083 DEBUG tempest [-] identity.tenant_id_1           = 487d69e3dac6411ba4ffca3a5ac61738 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.997 10083 WARNING oslo_config.cfg [-] Deprecated: Option "tenant_name" from group "identity" is deprecated for removal.  Its value may be silently ignored in the future.
+2020-05-19 12:10:20.997 10083 DEBUG tempest [-] identity.tenant_name           = tproject log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.997 10083 DEBUG tempest [-] identity.uri                   = http://192.168.1.111:5000/v2.0/ log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.997 10083 DEBUG tempest [-] identity.uri_v3                = https://traincentos.triliodata.demo:5000/v3 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.998 10083 WARNING oslo_config.cfg [-] Deprecated: Option "user_email" from group "identity" is deprecated for removal.  Its value may be silently ignored in the future.
+2020-05-19 12:10:20.998 10083 DEBUG tempest [-] identity.user_email            = test@trilio.io log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.998 10083 WARNING oslo_config.cfg [-] Deprecated: Option "user_id" from group "identity" is deprecated for removal.  Its value may be silently ignored in the future.
+2020-05-19 12:10:20.999 10083 DEBUG tempest [-] identity.user_id               = 9fc95708a0c742e4abdcc078bedce882 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:20.999 10083 WARNING oslo_config.cfg [-] Deprecated: Option "user_id_1" from group "identity" is deprecated for removal.  Its value may be silently ignored in the future.
+2020-05-19 12:10:20.999 10083 DEBUG tempest [-] identity.user_id_1             = 5bc03aca43d34c25ab0a45174bbd2565 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.000 10083 WARNING oslo_config.cfg [-] Deprecated: Option "username" from group "identity" is deprecated for removal.  Its value may be silently ignored in the future.
+2020-05-19 12:10:21.000 10083 DEBUG tempest [-] identity.username              = tuser log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.000 10083 DEBUG tempest [-] identity.v2_admin_endpoint_type = adminURL log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.000 10083 DEBUG tempest [-] identity.v3_endpoint_type      = publicURL log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.001 10083 DEBUG tempest [-] network-feature-enabled.api_extensions = ['agent', 'allowed-address-pairs', 'binding', 'dhcp_agent_scheduler', 'dvr', 'ext-gw-mode', 'external-net', 'extra_dhcp_opt', 'extraroute', 'fwaas', 'fwaasrouterinsertion', 'l3-ha', 'l3_agent_scheduler', 'lbaas', 'lbaas_agent_scheduler', 'metering', 'multi-provider', 'net-mtu', 'provider', 'quotas', 'router', 'security-group', 'service-type', 'subnet_allocation', 'vpnaas'] log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.001 10083 DEBUG tempest [-] network-feature-enabled.ipv6   = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.001 10083 DEBUG tempest [-] network-feature-enabled.ipv6_subnet_attributes = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.002 10083 DEBUG tempest [-] network-feature-enabled.port_admin_state_change = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.002 10083 DEBUG tempest [-] input-scenario.flavor_regex    = ^m1.nano$ log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.002 10083 DEBUG tempest [-] input-scenario.image_regex     = ^cirros-0.3.1-x86_64-uec$ log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.002 10083 DEBUG tempest [-] input-scenario.non_ssh_image_regex = ^.*[Ww]in.*$ log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.003 10083 DEBUG tempest [-] input-scenario.ssh_user_regex  = [["^.*[Cc]irros.*$", "cirros"]] log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.003 10083 DEBUG tempest [-] image-feature-enabled.api_v1   = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.003 10083 DEBUG tempest [-] image-feature-enabled.api_v2   = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.003 10083 DEBUG tempest [-] image-feature-enabled.deactivate_image = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.004 10083 WARNING oslo_config.cfg [-] Deprecated: Option "admin_domain_name" from group "identity" is deprecated. Use option "admin_domain_name" from group "auth".
+2020-05-19 12:10:21.004 10083 DEBUG tempest [-] auth.admin_domain_name         = clouddomain log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.004 10083 WARNING oslo_config.cfg [-] Deprecated: Option "admin_password" from group "identity" is deprecated. Use option "admin_password" from group "auth".
+2020-05-19 12:10:21.005 10083 DEBUG tempest [-] auth.admin_password            = **** log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.005 10083 WARNING oslo_config.cfg [-] Deprecated: Option "admin_tenant_name" from group "identity" is deprecated. Use option "admin_tenant_name" from group "auth".
+2020-05-19 12:10:21.005 10083 DEBUG tempest [-] auth.admin_tenant_name         = cloudproject log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.006 10083 WARNING oslo_config.cfg [-] Deprecated: Option "admin_username" from group "identity" is deprecated. Use option "admin_username" from group "auth".
+2020-05-19 12:10:21.006 10083 DEBUG tempest [-] auth.admin_username            = cloudadmin log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.006 10083 DEBUG tempest [-] auth.create_isolated_networks  = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.007 10083 DEBUG tempest [-] auth.default_credentials_domain_name = default log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.007 10083 DEBUG tempest [-] auth.tempest_roles             = [] log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.007 10083 DEBUG tempest [-] auth.test_accounts_file        = /home/nchavan/tempest/etc/accounts.yaml log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.007 10083 DEBUG tempest [-] auth.use_dynamic_credentials   = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.008 10083 DEBUG tempest [-] volume.backend1_name           = BACKEND_1 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.008 10083 DEBUG tempest [-] volume.backend2_name           = BACKEND_2 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.008 10083 DEBUG tempest [-] volume.build_interval          = 1 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.008 10083 DEBUG tempest [-] volume.build_timeout           = 196 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.009 10083 DEBUG tempest [-] volume.catalog_type            = volume log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.009 10083 DEBUG tempest [-] volume.disk_format             = raw log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.009 10083 DEBUG tempest [-] volume.endpoint_type           = publicURL log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.009 10083 DEBUG tempest [-] volume.region                  =  log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.010 10083 DEBUG tempest [-] volume.storage_protocol        = iSCSI log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.010 10083 DEBUG tempest [-] volume.vendor_name             = Open Source log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.010 10083 DEBUG tempest [-] volume.volume_availability_zone = nova log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.011 10083 DEBUG tempest [-] volume.volume_size             = 1 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.011 10083 DEBUG tempest [-] volume.volume_type             = ceph log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.011 10083 DEBUG tempest [-] volume.volume_type_1           = iscsi log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.011 10083 DEBUG tempest [-] volume.volume_type_id          =  log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.012 10083 DEBUG tempest [-] volume.volume_type_id_1        =  log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.012 10083 DEBUG tempest [-] wlm.admin_domain_id            = 88a4764ba8e7477ea28cf345bc36ffa2 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.012 10083 DEBUG tempest [-] wlm.admin_password             = password log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.012 10083 DEBUG tempest [-] wlm.admin_username             = tuser log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.013 10083 DEBUG tempest [-] wlm.config_pass                = password log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.013 10083 DEBUG tempest [-] wlm.config_user                = config_user_test log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.013 10083 DEBUG tempest [-] wlm.endpoint_type              = publicURL log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.013 10083 DEBUG tempest [-] wlm.insecure                   = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.014 10083 DEBUG tempest [-] wlm.op_db_password             = 293f7a2dfff748d5 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.014 10083 DEBUG tempest [-] wlm.op_passw                   = password log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.014 10083 DEBUG tempest [-] wlm.op_user                    = root log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.015 10083 DEBUG tempest [-] wlm.os_auth_url                = https://traincentos.triliodata.demo:5000/v3 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.015 10083 DEBUG tempest [-] wlm.os_cacert                  = /opt/tls-ca.pem log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.015 10083 DEBUG tempest [-] wlm.os_region_name             = US-WEST-2 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.015 10083 DEBUG tempest [-] wlm.os_tenant_id               = 24083152bb924c519b3af9e24237b638 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.016 10083 DEBUG tempest [-] wlm.os_tenant_name             = services log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.016 10083 DEBUG tempest [-] wlm.os_wlm_api_version         = 1 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.016 10083 DEBUG tempest [-] wlm.retries                    = 2 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.016 10083 DEBUG tempest [-] wlm.service_name               = TrilioVaultWLM log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.017 10083 DEBUG tempest [-] wlm.service_type               = workloads log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.017 10083 DEBUG tempest [-] wlm.workload_service_name      =  log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.017 10083 DEBUG tempest [-] telemetry-feature-enabled.events = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.017 10083 DEBUG tempest [-] data-processing.catalog_type   = data-processing log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.018 10083 DEBUG tempest [-] data-processing.endpoint_type  = publicURL log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.018 10083 DEBUG tempest [-] compute-feature-enabled.allow_duplicate_networks = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.018 10083 DEBUG tempest [-] compute-feature-enabled.api_extensions = ['NMN', 'OS-DCF', 'OS-EXT-AZ', 'OS-EXT-IMG-SIZE', 'OS-EXT-IPS', 'OS-EXT-IPS-MAC', 'OS-EXT-SRV-ATTR', 'OS-EXT-STS', 'OS-EXT-VIF-NET', 'OS-FLV-DISABLED', 'OS-FLV-EXT-DATA', 'OS-SCH-HNT', 'OS-SRV-USG', 'os-admin-actions', 'os-agents', 'os-aggregates', 'os-assisted-volume-snapshots', 'os-attach-interfaces', 'os-availability-zone', 'os-baremetal-ext-status', 'os-baremetal-nodes', 'os-block-device-mapping-v2-boot', 'os-cell-capacities', 'os-cells', 'os-certificates', 'os-cloudpipe', 'os-cloudpipe-update', 'os-config-drive', 'os-console-auth-tokens', 'os-console-output', 'os-consoles', 'os-create-server-ext', 'os-deferred-delete', 'os-evacuate', 'os-extended-evacuate-find-host', 'os-extended-floating-ips', 'os-extended-hypervisors', 'os-extended-networks', 'os-extended-quotas', 'os-extended-rescue-with-image', 'os-extended-services', 'os-extended-services-delete', 'os-extended-volumes', 'os-fixed-ips', 'os-flavor-access', 'os-flavor-extra-specs', 'os-flavor-manage', 'os-flavor-rxtx', 'os-flavor-swap', 'os-floating-ip-dns', 'os-floating-ip-pools', 'os-floating-ips', 'os-floating-ips-bulk', 'os-fping', 'os-hide-server-addresses', 'os-hosts', 'os-hypervisor-status', 'os-hypervisors', 'os-instance-actions', 'os-instance_usage_audit_log', 'os-keypairs', 'os-migrations', 'os-multiple-create', 'os-networks', 'os-networks-associate', 'os-preserve-ephemeral-rebuild', 'os-quota-class-sets', 'os-quota-sets', 'os-rescue', 'os-security-group-default-rules', 'os-security-groups', 'os-server-diagnostics', 'os-server-external-events', 'os-server-group-quotas', 'os-server-groups', 'os-server-list-multi-status', 'os-server-password', 'os-server-sort-keys', 'os-server-start-stop', 'os-services', 'os-shelve', 'os-simple-tenant-usage', 'os-tenant-networks', 'os-used-limits', 'os-used-limits-for-admin', 'os-user-data', 'os-user-quotas', 'os-virtual-interfaces', 'os-volume-attachment-update', 'os-volumes'] log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.019 10083 DEBUG tempest [-] compute-feature-enabled.attach_encrypted_volume = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.019 10083 DEBUG tempest [-] compute-feature-enabled.block_migrate_cinder_iscsi = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.019 10083 DEBUG tempest [-] compute-feature-enabled.block_migration_for_live_migration = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.019 10083 DEBUG tempest [-] compute-feature-enabled.change_password = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.020 10083 DEBUG tempest [-] compute-feature-enabled.config_drive = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.020 10083 DEBUG tempest [-] compute-feature-enabled.console_output = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.020 10083 DEBUG tempest [-] compute-feature-enabled.disk_config = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.020 10083 DEBUG tempest [-] compute-feature-enabled.ec2_api = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.021 10083 DEBUG tempest [-] compute-feature-enabled.enable_instance_password = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.021 10083 DEBUG tempest [-] compute-feature-enabled.interface_attach = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.021 10083 DEBUG tempest [-] compute-feature-enabled.live_migrate_paused_instances = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.021 10083 DEBUG tempest [-] compute-feature-enabled.live_migration = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.022 10083 DEBUG tempest [-] compute-feature-enabled.metadata_service = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.022 10083 DEBUG tempest [-] compute-feature-enabled.nova_cert = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.022 10083 DEBUG tempest [-] compute-feature-enabled.pause  = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.023 10083 DEBUG tempest [-] compute-feature-enabled.personality = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.023 10083 DEBUG tempest [-] compute-feature-enabled.preserve_ports = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.023 10083 DEBUG tempest [-] compute-feature-enabled.rdp_console = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.023 10083 DEBUG tempest [-] compute-feature-enabled.rescue = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.024 10083 DEBUG tempest [-] compute-feature-enabled.resize = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.024 10083 DEBUG tempest [-] compute-feature-enabled.shelve = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.024 10083 DEBUG tempest [-] compute-feature-enabled.snapshot = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.024 10083 DEBUG tempest [-] compute-feature-enabled.spice_console = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.025 10083 DEBUG tempest [-] compute-feature-enabled.suspend = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.025 10083 DEBUG tempest [-] compute-feature-enabled.vnc_console = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.025 10083 DEBUG tempest [-] object-storage-feature-enabled.container_sync = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.025 10083 DEBUG tempest [-] object-storage-feature-enabled.discoverability = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.026 10083 DEBUG tempest [-] object-storage-feature-enabled.discoverable_apis = [] log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.026 10083 DEBUG tempest [-] object-storage-feature-enabled.object_versioning = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.026 10083 DEBUG tempest [-] volume-feature-enabled.api_extensions = ['OS-SCH-HNT', 'backups', 'cgsnapshots', 'consistencygroups', 'encryption', 'os-admin-actions', 'os-availability-zone', 'os-extended-services', 'os-extended-snapshot-attributes', 'os-hosts', 'os-image-create', 'os-quota-class-sets', 'os-quota-sets', 'os-services', 'os-snapshot-actions', 'os-types-extra-specs', 'os-types-manage', 'os-used-limits', 'os-vol-host-attr', 'os-vol-image-meta', 'os-vol-mig-status-attr', 'os-vol-tenant-attr', 'os-volume-actions', 'os-volume-encryption-metadata', 'os-volume-manage', 'os-volume-replication', 'os-volume-transfer', 'os-volume-type-access', 'os-volume-unmanage', 'qos-specs', 'scheduler-stats'] log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.026 10083 DEBUG tempest [-] volume-feature-enabled.api_v1  = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.027 10083 DEBUG tempest [-] volume-feature-enabled.api_v2  = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.027 10083 DEBUG tempest [-] volume-feature-enabled.backup  = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.027 10083 DEBUG tempest [-] volume-feature-enabled.bootable = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.027 10083 DEBUG tempest [-] volume-feature-enabled.clone   = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.028 10083 DEBUG tempest [-] volume-feature-enabled.multi_backend = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.028 10083 DEBUG tempest [-] volume-feature-enabled.snapshot = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.028 10083 DEBUG tempest [-] stress.controller              = None log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.029 10083 DEBUG tempest [-] stress.default_thread_number_per_action = 4 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.029 10083 DEBUG tempest [-] stress.full_clean_stack        = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.029 10083 DEBUG tempest [-] stress.leave_dirty_stack       = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.029 10083 DEBUG tempest [-] stress.log_check_interval      = 60 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.029 10083 DEBUG tempest [-] stress.max_instances           = 16 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.030 10083 DEBUG tempest [-] stress.nova_logdir             = None log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.030 10083 DEBUG tempest [-] stress.target_controller       = None log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.030 10083 DEBUG tempest [-] stress.target_logfiles         = None log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.030 10083 DEBUG tempest [-] stress.target_private_key_path = None log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.031 10083 DEBUG tempest [-] stress.target_ssh_user         = None log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.031 10083 DEBUG tempest [-] compute.build_interval         = 1 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.031 10083 DEBUG tempest [-] compute.build_timeout          = 196 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.032 10083 DEBUG tempest [-] compute.catalog_type           = compute log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.032 10083 DEBUG tempest [-] compute.endpoint_type          = publicURL log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.032 10083 DEBUG tempest [-] compute.fixed_network_name     = private log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.032 10083 DEBUG tempest [-] compute.flavor_disk            = 5 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.033 10083 DEBUG tempest [-] compute.flavor_ephemeral       = 1 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.033 10083 DEBUG tempest [-] compute.flavor_name            = custom-flavor log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.033 10083 DEBUG tempest [-] compute.flavor_ram             = 4096 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.033 10083 DEBUG tempest [-] compute.flavor_ref             = 79818fea-8b3d-424e-9cc0-b92161bdc462 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.034 10083 DEBUG tempest [-] compute.flavor_ref_alt         = 55b6f30b-c35f-4170-80dc-72b383780b69 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.034 10083 DEBUG tempest [-] compute.flavor_swap            = 1024 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.034 10083 DEBUG tempest [-] compute.flavor_vcpus           = 4 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.034 10083 DEBUG tempest [-] compute.floating_ip_range      = 10.0.0.0/29 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.035 10083 DEBUG tempest [-] compute.fvm_image_ref          = 254468ce-e83d-483b-923d-f9cfc6c17606 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.035 10083 DEBUG tempest [-] compute.fvm_ssh_user           = ubuntu log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.035 10083 DEBUG tempest [-] compute.image_alt_ssh_user     = cirros log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.035 10083 DEBUG tempest [-] compute.image_ref              = bc2fd9b7-b114-4c75-8350-69aa90223793 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.036 10083 DEBUG tempest [-] compute.image_ref_alt          = 32dc87e2-252d-4510-b0ae-3b8a49ae29f7 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.036 10083 DEBUG tempest [-] compute.image_ssh_password     = password log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.036 10083 DEBUG tempest [-] compute.image_ssh_user         = cirros log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.037 10083 DEBUG tempest [-] compute.network_for_ssh        = private log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.037 10083 DEBUG tempest [-] compute.ping_count             = 1 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.037 10083 DEBUG tempest [-] compute.ping_size              = 56 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.037 10083 DEBUG tempest [-] compute.ping_timeout           = 120 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.038 10083 DEBUG tempest [-] compute.ready_wait             = 0 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.038 10083 DEBUG tempest [-] compute.region                 =  log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.038 10083 DEBUG tempest [-] compute.shelved_offload_time   = 0 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.038 10083 DEBUG tempest [-] compute.ssh_auth_method        = keypair log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.039 10083 DEBUG tempest [-] compute.ssh_connect_method     = fixed log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.039 10083 DEBUG tempest [-] compute.ssh_shell_prologue     = set -eu -o pipefail; PATH=$PATH:/sbin; log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.039 10083 DEBUG tempest [-] compute.ssh_user               = cirros log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.039 10083 DEBUG tempest [-] compute.use_floatingip_for_ssh = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.040 10083 DEBUG tempest [-] compute.vm_availability_zone   = nova log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.040 10083 DEBUG tempest [-] compute.volume_device_name     = vdb log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.040 10083 DEBUG tempest [-] scenario.aki_img_file          = cirros-0.3.4-x86_64-vmlinuz log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.040 10083 DEBUG tempest [-] scenario.ami_img_file          = cirros-0.3.4-x86_64-blank.img log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.041 10083 DEBUG tempest [-] scenario.ari_img_file          = cirros-0.3.4-x86_64-initrd log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.041 10083 DEBUG tempest [-] scenario.dhcp_client           = udhcpc log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.041 10083 DEBUG tempest [-] scenario.img_container_format  = bare log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.041 10083 DEBUG tempest [-] scenario.img_dir               = /home/stack/devstack/files/images/cirros-0.3.4-x86_64-uec log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.042 10083 DEBUG tempest [-] scenario.img_disk_format       = qcow2 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.042 10083 DEBUG tempest [-] scenario.img_file              = cirros-0.3.4-x86_64-disk.img log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.042 10083 DEBUG tempest [-] scenario.img_properties        = None log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.042 10083 DEBUG tempest [-] scenario.large_ops_number      = 0 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.043 10083 DEBUG tempest [-] scenario.ssh_user              = cirros log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.043 10083 DEBUG tempest [-] boto.aki_manifest              = cirros-0.3.4-x86_64-vmlinuz.manifest.xml log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.043 10083 DEBUG tempest [-] boto.ami_manifest              = cirros-0.3.4-x86_64-blank.img.manifest.xml log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.043 10083 DEBUG tempest [-] boto.ari_manifest              = cirros-0.3.4-x86_64-initrd.manifest.xml log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.044 10083 DEBUG tempest [-] boto.aws_access                = None log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.044 10083 DEBUG tempest [-] boto.aws_secret                = **** log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.044 10083 DEBUG tempest [-] boto.aws_zone                  = nova log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.045 10083 DEBUG tempest [-] boto.build_interval            = 1 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.045 10083 DEBUG tempest [-] boto.build_timeout             = 196 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.045 10083 DEBUG tempest [-] boto.ec2_url                   = http://158.69.170.11:8773/ log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.045 10083 DEBUG tempest [-] boto.http_socket_timeout       = 30 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.046 10083 DEBUG tempest [-] boto.instance_type             = m1.nano log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.046 10083 DEBUG tempest [-] boto.num_retries               = 1 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.046 10083 DEBUG tempest [-] boto.s3_materials_path         = /home/stack/devstack/files/images/s3-materials/cirros-0.3.4 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.046 10083 DEBUG tempest [-] boto.s3_url                    = http://158.69.170.11:3333 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.047 10083 DEBUG tempest [-] database.catalog_type          = database log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.047 10083 DEBUG tempest [-] database.db_current_version    = v1.0 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.048 10083 DEBUG tempest [-] database.db_flavor_ref         = 1 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.048 10083 DEBUG tempest [-] baremetal.active_timeout       = 300 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.049 10083 DEBUG tempest [-] baremetal.association_timeout  = 30 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.049 10083 DEBUG tempest [-] baremetal.catalog_type         = baremetal log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.050 10083 DEBUG tempest [-] baremetal.driver               = fake log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.050 10083 DEBUG tempest [-] baremetal.driver_enabled       = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.051 10083 DEBUG tempest [-] baremetal.endpoint_type        = publicURL log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.051 10083 DEBUG tempest [-] baremetal.power_timeout        = 60 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.052 10083 DEBUG tempest [-] baremetal.unprovision_timeout  = 300 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.052 10083 DEBUG tempest [-] dashboard.dashboard_url        = http://traincentos.triliodata.demo/ log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.053 10083 WARNING oslo_config.cfg [-] Deprecated: Option "login_url" from group "dashboard" is deprecated for removal.  Its value may be silently ignored in the future.
+2020-05-19 12:10:21.053 10083 DEBUG tempest [-] dashboard.login_url            = http://traincentos.triliodata.demo/auth/login/ log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.054 10083 DEBUG tempest [-] orchestration.build_interval   = 1 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.054 10083 DEBUG tempest [-] orchestration.build_timeout    = 1200 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.055 10083 DEBUG tempest [-] orchestration.catalog_type     = orchestration log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.055 10083 DEBUG tempest [-] orchestration.endpoint_type    = publicURL log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.055 10083 DEBUG tempest [-] orchestration.instance_type    = m1.micro log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.055 10083 DEBUG tempest [-] orchestration.keypair_name     = None log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.056 10083 DEBUG tempest [-] orchestration.max_resources_per_stack = 1000 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.056 10083 DEBUG tempest [-] orchestration.max_template_size = 524288 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.056 10083 DEBUG tempest [-] orchestration.region           =  log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.056 10083 DEBUG tempest [-] orchestration.stack_owner_role = heat_stack_owner log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.057 10083 DEBUG tempest [-] debug.trace_requests           =  log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.057 10083 DEBUG tempest [-] messaging.catalog_type         = messaging log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.057 10083 DEBUG tempest [-] messaging.max_claim_grace      = 43200 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.057 10083 DEBUG tempest [-] messaging.max_claim_ttl        = 43200 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.058 10083 DEBUG tempest [-] messaging.max_message_size     = 262144 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.058 10083 DEBUG tempest [-] messaging.max_message_ttl      = 1209600 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.058 10083 DEBUG tempest [-] messaging.max_messages_per_claim = 20 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.058 10083 DEBUG tempest [-] messaging.max_messages_per_page = 20 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.059 10083 DEBUG tempest [-] messaging.max_queue_metadata   = 65536 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.059 10083 DEBUG tempest [-] messaging.max_queues_per_page  = 20 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.059 10083 DEBUG tempest [-] validation.auth_method         = keypair log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.059 10083 DEBUG tempest [-] validation.connect_method      = floating log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.060 10083 DEBUG tempest [-] validation.connect_timeout     = 60 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.060 10083 WARNING oslo_config.cfg [-] Deprecated: Option "ip_version_for_ssh" from group "compute" is deprecated. Use option "ip_version_for_ssh" from group "validation".
+2020-05-19 12:10:21.061 10083 DEBUG tempest [-] validation.ip_version_for_ssh  = 4 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.061 10083 DEBUG tempest [-] validation.ping_timeout        = 120 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.061 10083 DEBUG tempest [-] validation.run_validation      = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.062 10083 DEBUG tempest [-] validation.security_group      = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.062 10083 DEBUG tempest [-] validation.security_group_rules = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.062 10083 WARNING oslo_config.cfg [-] Deprecated: Option "ssh_timeout" from group "compute" is deprecated. Use option "ssh_timeout" from group "validation".
+2020-05-19 12:10:21.062 10083 DEBUG tempest [-] validation.ssh_timeout         = 196 log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.063 10083 DEBUG tempest [-] service_available.ceilometer   = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.063 10083 DEBUG tempest [-] service_available.cinder       = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.063 10083 DEBUG tempest [-] service_available.glance       = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.064 10083 DEBUG tempest [-] service_available.heat         = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.064 10083 DEBUG tempest [-] service_available.horizon      = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.064 10083 DEBUG tempest [-] service_available.ironic       = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.064 10083 DEBUG tempest [-] service_available.neutron      = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.065 10083 DEBUG tempest [-] service_available.nova         = True log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.065 10083 DEBUG tempest [-] service_available.sahara       = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.065 10083 DEBUG tempest [-] service_available.swift        = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.065 10083 DEBUG tempest [-] service_available.trove        = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.066 10083 DEBUG tempest [-] service_available.zaqar        = False log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2597
+2020-05-19 12:10:21.066 10083 DEBUG tempest [-] ******************************************************************************** log_opt_values /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_config/cfg.py:2599
+2020-05-19 12:10:21.574 10083 DEBUG tempest.test [-] {'url': 'flavors/%s', 'http-method': 'GET', 'name': 'get-flavor-details', 'resources': [{'expected_result': 404, 'name': 'flavor'}]} generate_scenario tempest/test.py:705
+2020-05-19 12:10:21.578 10083 DEBUG tempest.test [-] Add resource to test flavor generate_scenario tempest/test.py:717
+2020-05-19 12:10:21.579 10083 DEBUG tempest.test [-] [('inv_res_flavor', {'expected_result': 404, 'resource': ('flavor', '5e210a1e-bf48-4862-bc23-65040fd70e59')})] generate_scenario tempest/test.py:727
+2020-05-19 12:10:21.579 10083 DEBUG tempest.test [-] {'url': 'flavors/detail', 'http-method': 'GET', 'name': 'list-flavors-with-detail', 'json-schema': {'type': 'object', 'properties': {'minRam': {'type': 'integer', 'results': {'gen_none': 400, 'gen_string': 400}}, 'minDisk': {'type': 'integer', 'results': {'gen_none': 400, 'gen_string': 400}}}}} generate_scenario tempest/test.py:705
+2020-05-19 12:10:21.582 10083 DEBUG tempest.test [-] [('minRam_gen_none', {'_negtest_schema': {'type': 'integer', 'results': {'gen_none': 400, 'gen_string': 400}}, '_negtest_path': ['minRam'], '_negtest_name': 'minRam_gen_none', '_negtest_generator': <bound method NegativeTestGenerator.gen_none of <tempest.common.generator.negative_generator.NegativeTestGenerator object at 0x7ff6991bbed0>>}), ('minRam_gen_string', {'_negtest_schema': {'type': 'integer', 'results': {'gen_none': 400, 'gen_string': 400}}, '_negtest_path': ['minRam'], '_negtest_name': 'minRam_gen_string', '_negtest_generator': <bound method NegativeTestGenerator.gen_string of <tempest.common.generator.negative_generator.NegativeTestGenerator object at 0x7ff6991bbed0>>}), ('minDisk_gen_none', {'_negtest_schema': {'type': 'integer', 'results': {'gen_none': 400, 'gen_string': 400}}, '_negtest_path': ['minDisk'], '_negtest_name': 'minDisk_gen_none', '_negtest_generator': <bound method NegativeTestGenerator.gen_none of <tempest.common.generator.negative_generator.NegativeTestGenerator object at 0x7ff6991bbed0>>}), ('minDisk_gen_string', {'_negtest_schema': {'type': 'integer', 'results': {'gen_none': 400, 'gen_string': 400}}, '_negtest_path': ['minDisk'], '_negtest_name': 'minDisk_gen_string', '_negtest_generator': <bound method NegativeTestGenerator.gen_string of <tempest.common.generator.negative_generator.NegativeTestGenerator object at 0x7ff6991bbed0>>})] generate_scenario tempest/test.py:727
+2020-05-19 12:10:22.571 10083 DEBUG oslo_concurrency.lockutils [-] Lock "test_accounts_io" acquired by "tempest.common.preprov_creds._get_free_hash" :: waited 0.000s inner /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_concurrency/lockutils.py:358
+2020-05-19 12:10:22.572 10083 DEBUG oslo_concurrency.lockutils [-] Lock "test_accounts_io" released by "tempest.common.preprov_creds._get_free_hash" :: held 0.001s inner /home/nchavan/tempest/.venv/lib/python2.7/site-packages/oslo_concurrency/lockutils.py:370
+2020-05-19 12:10:22.572 10083 INFO tempest.common.preprov_creds [-] InputScenarioUtils allocated creds:
+{'username': 'tuser', 'tenant_name': 'tproject', 'domain_name': 'clouddomain'}
+2020-05-19 12:10:27.539 10083 INFO tempest_lib.common.rest_client [-] Request (main): 502 POST https://traincentos.triliodata.demo:5000/v3/auth/tokens
+2020-05-19 12:10:27.540 10083 DEBUG tempest_lib.common.rest_client [-] Request - Headers: {'Content-Type': 'application/json', 'Accept': 'application/json'}
+        Body: <omitted>
+    Response - Headers: {'status': '502', 'content-length': '157', 'server': 'nginx/1.16.1', 'connection': 'close', 'date': 'Tue, 19 May 2020 06:40:27 GMT', 'content-type': 'text/html'}
+        Body: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.16.1</center>
+</body>
+</html>
+ _log_request_full /home/nchavan/tempest/.venv/lib/python2.7/site-packages/tempest_lib/common/rest_client.py:414
